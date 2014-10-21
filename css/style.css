@@ -1,3 +1,29 @@
+html, body{
+    height: 100%;
+}
 body{
-    font-family: "Helvetica Neue", "HelveticaNeue", "HelveticaNeueLTPro"
+    font-family: "HelveticaNeue-Thin", "Helvetica Neue", "HelveticaNeueLTPro";
+}
+
+.main{
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.main_body{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.our_name{
+    font-size:72px;
+    line-height: 82px;
+    margin: 0px 0px 30px
+}
+
+.slogan{
+    font-size: 24px;
+    line-height: 32px;
 }
